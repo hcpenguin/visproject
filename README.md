@@ -40,14 +40,15 @@ We use the single-hue progressions fade from a dark shade of the blue color to a
 
 Interactions:
 
-The interactions are line up with dataset's felonies category and temporal information.
-
+The interactions line up with dataset's felonies category and temporal information.
+User can choose any of the seven major felony from a dropdown list and the visualization will update the choropleth map in hue progression with that felony's data in that specific year. The hue intervals are updated with that felony's min and max number in the 17 years time span.
+User also can use the slide to either going forward or backward to see each year(2000~2017) certain felony's choropleth map. This enables user to see the changing trend of the felony in all precincts.And compare magnitude among different areas. 
 
 
 # Outcome and Evaluation: how did the visualization helps your users to achieve the objectives.
 
-
-
+The map was shown to some international students who are looking for housing rental for the coming semester, some of them are trying to move to another area, some of them are coming to New York in this Fall semester. They think this are very useful reference in their rent hunting, safety is one of the top consideration and even higher than the price range. Some people we know are looking for house to purchase or relocate with new job are also find this is very helpful for them to decide which neighborhood for their residency.
+Overall, for users this tool is simple to use, fast to get information across the whole area and efficient to identiy user targeting areas and the adjecent neighbor areas. 
 
 # Visualization Tools Used
 This data visualization uses D3.js, some modern front-end tools and techniques like React, Babel, npm and related cleaning and exploratory analysis with Python/pandas.
@@ -75,4 +76,6 @@ Step 4: The map should be live on localhost:8080.
 
 # Possible future work
 - add ability to show/hide top 5 precincts with most crime number using a separate bar chart.
-- add more precinct-based datasets, maybe combine with other demographic data.
+- add more precinct-based datasets, i.e. violations, misdemeanors
+- combine with other demographic data.
+
