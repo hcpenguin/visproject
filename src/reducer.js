@@ -1,5 +1,5 @@
 export const defaultState = {
-    "currentYear": "2007",
+    "currentYear": "2000",
     "currentViolation": "MURDER & NON NEGL. MANSLAUGHTER",
 }
 
