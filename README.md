@@ -6,13 +6,16 @@ Ci(Hans)  He        NetID: ch3183
 
 Chenrui   Zhang     NetID: cz1605
 
-# Objectives of the projects including a brief context of the project, and what tasks you're aiming to solve using visualizations
+# Objectives of the projects including a brief context of the project, and what tasks you're aiming to solve using visualizations, domain(target user) and task abstraction.
 This is the class final project for CUSP Urban Data Visualization. It is an interactive map visualizing the number of the 7 major felonies from year 2000 to 2017 by police precincts in New York City. The map is designed to help people(users) who are new to the city or who are trying to relocate within five boroughs or people who are just trying to compare their neighborhood to others. It demostrates the changing trend of major crimes in all NYC areas for the last 17 years time span.  Instead of reading police report(excel, PDF), users can be more efficient and effective to get a direct view of the major crimes levels utilizing this map. To sum up, the map is designed to:
 
-1.Visualizing spatial distribution of the 7-major-felony.
-2.Comparing different precincts felony levels.
-3.Demostrating crime levels' changing trends in different precincts.
-4.Providing reference information for people who are finding new rent,buying new home or just visiting the area. 
+- Visualizing spatial distribution of the 7-major-felony.
+
+- Comparing different precincts felony levels.
+
+- Demostrating crime levels' changing trends in different precincts.
+
+- Providing reference information for people who are finding new rent,buying new home or just visiting the area. 
 
 # Data set involves
 
@@ -26,6 +29,18 @@ Link:
 https://data.cityofnewyork.us/api/geospatial/78dh-3ptz?method=export&format=GeoJSON
 
 # Descriptions on your visualization design choices. For example, why you're choosing the types of visualization, representations, and/or interactions in your project.
+
+Types of visualization:
+Choropleth Geospatial Map. 
+Choropleth maps are based on statistical data aggregated over previously defined regions (e.g., NYPD precincts in our case). Thus, where defined regions of precincts are important to our visualization, achoropleth map is preferred as the type of visualization.
+
+Representations:
+
+We use the single-hue progressions fade from a dark shade of the blue color to a very light or white shade of relatively the same hue. This is a common method used to map magnitude which is the same in our case. The darkest hue represents the greatest number in the data set and the lightest shade representing the least number. And we use the quantile to get even intervals between the lowerest to the highest number in each felony. 
+
+Interactions:
+
+The interactions are line up with dataset's felonies category and temporal information.
 
 
 
