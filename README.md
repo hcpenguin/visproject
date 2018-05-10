@@ -1,4 +1,6 @@
-# Visualization Project CUSP
+# Title:
+### NYC 2000 ~ 2017 Seven Major Felony Offenses by NYPD Precinct
+--- Visualization Project CUSP
 
 # Team members
 
@@ -6,7 +8,8 @@ Ci(Hans)  He        NetID: ch3183
 
 Chenrui   Zhang     NetID: cz1605
 
-# Objectives of the projects including a brief context of the project, and what tasks you're aiming to solve using visualizations, domain(target user) and task abstraction.
+# Objectives of the project
+#### a brief context of the project, and what tasks you're aiming to solve using visualizations, domain(target user) and task abstraction.
 This is the class final project for CUSP Urban Data Visualization. It is an interactive map visualizing the number of the 7 major felonies from year 2000 to 2017 by police precincts in New York City. The map is designed to help people(users) who are new to the city or who are trying to relocate within five boroughs or people who are just trying to compare their neighborhood to others. It demostrates the changing trend of major crimes in all NYC areas for the last 17 years time span.  Instead of reading police report(excel, PDF), users can be more efficient and effective to get a direct view of the major crimes levels utilizing this map. To sum up, the map is designed to:
 
 - Visualizing spatial distribution of the 7-major-felony.
