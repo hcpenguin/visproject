@@ -20,7 +20,7 @@ class ViolationInput extends React.Component {
                 <Autocomplete
                   items={this.props.violations}
                   getItemValue={item => item}
-                  labelText="choose a violation "
+                  labelText="choose a crime "
                   renderItem={(item, isHighlighted) => (<div> {item} </div>)}
                   shouldItemRender={(value, entry) => value.toLowerCase().includes(entry.toLowerCase())}
                   onChange={(e, value) => this.props.violations.includes(value) && this.props.onEntry(value) }
